@@ -1,0 +1,68 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.employeeDirectory {
+  .container {
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: $ms-color-white;
+  }
+
+  .row {
+    @include ms-Grid-row;
+    padding: 20px;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-sm12;
+  }
+
+  .title {
+    @include ms-font-xl;
+    color: $ms-color-themePrimary;
+  }
+
+  .searchBox {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .employeeTable {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+
+    th {
+      @include ms-font-m-plus;
+      background-color: $ms-color-themeLighter;
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid $ms-color-neutralLight;
+    }
+
+    td {
+      @include ms-font-m;
+      padding: 10px;
+      border-bottom: 1px solid $ms-color-neutralLight;
+    }
+
+    tr:hover {
+      background-color: $ms-color-neutralLighter;
+    }
+  }
+
+  a {
+    color: $ms-color-themePrimary;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
