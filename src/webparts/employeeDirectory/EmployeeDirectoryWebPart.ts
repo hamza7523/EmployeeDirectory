@@ -9,7 +9,7 @@ import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import { IReadonlyTheme } from '@microsoft/sp-component-base';
 
 import * as strings from 'EmployeeDirectoryWebPartStrings';
-import EmployeeDirectory from './components/EmployeeDirectory';
+import { EmployeeDirectory } from './components/EmployeeDirectory';
 import { IEmployeeDirectoryProps } from './components/IEmployeeDirectoryProps';
 
 export interface IEmployeeDirectoryWebPartProps {

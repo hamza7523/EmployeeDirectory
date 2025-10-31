@@ -1,9 +1,9 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "employee-directory-client-side-solution",
+    "name": "employee-directory-client-side-solution-updated2",
     "id": "12eb1ced-7633-41ab-b2a1-221211335b98",
-    "version": "1.0.0.0",
+    "version": "1.0.2.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
